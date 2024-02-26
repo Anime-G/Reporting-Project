@@ -1,0 +1,84 @@
+{
+  "cancelled_reservation": [
+    {
+      "reservationNumber": "R123457",
+      "guestName": "Emily Johnson",
+      "roomNumber": "105",
+      "roomType": "Deluxe",
+      "cancellationDate": "2024-02-20",
+      "cancellationReason": "Change of plans"
+    },
+    {
+      "reservationNumber": "R789013",
+      "guestName": "Michael Brown",
+      "roomNumber": "106",
+      "roomType": "Standard",
+      "cancellationDate": "2024-02-21",
+      "cancellationReason": "Unexpected circumstances"
+    },
+    {
+      "reservationNumber": "R345679",
+      "guestName": "Sophia Wilson",
+      "roomNumber": "107",
+      "roomType": "Suite",
+      "cancellationDate": "2024-02-22",
+      "cancellationReason": "Travel restrictions"
+    },
+    {
+      "reservationNumber": "R567891",
+      "guestName": "David Lee",
+      "roomNumber": "108",
+      "roomType": "Standard",
+      "cancellationDate": "2024-02-23",
+      "cancellationReason": "Illness"
+    },
+    {
+      "reservationNumber": "R123458",
+      "guestName": "Emma Garcia",
+      "roomNumber": "109",
+      "roomType": "Deluxe",
+      "cancellationDate": "2024-02-24",
+      "cancellationReason": "Personal reasons"
+    },
+    {
+      "reservationNumber": "R789014",
+      "guestName": "Matthew Rodriguez",
+      "roomNumber": "110",
+      "roomType": "Standard",
+      "cancellationDate": "2024-02-25",
+      "cancellationReason": "Flight cancellation"
+    },
+    {
+      "reservationNumber": "R345680",
+      "guestName": "Olivia Martinez",
+      "roomNumber": "111",
+      "roomType": "Suite",
+      "cancellationDate": "2024-02-26",
+      "cancellationReason": "Change of destination"
+    },
+    {
+      "reservationNumber": "R567892",
+      "guestName": "Lucas Hernandez",
+      "roomNumber": "112",
+      "roomType": "Standard",
+      "cancellationDate": "2024-02-27",
+      "cancellationReason": "Weather conditions"
+    },
+    {
+      "reservationNumber": "R123459",
+      "guestName": "Isabella Lopez",
+      "roomNumber": "113",
+      "roomType": "Deluxe",
+      "cancellationDate": "2024-02-28",
+      "cancellationReason": "Emergency situation"
+    },
+    {
+      "reservationNumber": "R789015",
+      "guestName": "Alexander Gonzales",
+      "roomNumber": "114",
+      "roomType": "Standard",
+      "cancellationDate": "2024-02-29",
+      "cancellationReason": "Unforeseen circumstances"
+    }
+  ]
+}

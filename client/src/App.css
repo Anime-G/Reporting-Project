@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width:100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height:fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flexing
+{
+  width:99%;
+  margin: 5px auto;
+  height: 100% !important;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+}
+.slidebar,.showdiv
+{
+  width:20% !important;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  background:white ; 
+  padding: 0px 10px;
+  
+}
+.slidebar
+{
+  text-align: left;
+  /* background-color: #12254a; */
+}
+
+.showdiv
+{
+  margin-left: 2px;
+  width: 80% !important;
+  border-radius: 0 5px 5px 0;
+  /* background-color: #12254a;
+  color: #fff; */
+}
+
+.selectedmenu
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.optionBlock
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.showdivheader
+{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.reportcolumn
+{
+  width: 98%;
+  border-radius: 3px;
+  margin:20px auto;
+  text-align: none !important;
+  justify-content: left;
+  background:#fff;
+  padding: 5px;
+  color: black
+}
+.table
+{
+  height: calc(100vh - 350px);
+  margin: 10px;
+  overflow: scroll;
+  overflow-x: scroll;
+}
+.columnblock{
+  background-color: darkgray;
+  margin:5px;
+  padding: 8px;
+  justify-content:flex-start;
+  text-align: left;
+  position: relative;
+  border-radius: 2px;
+}
+.columnblock > .close
+{
+  position: absolute;
+  right:5px;
+  cursor: pointer;
+  top:5px
+}
+.columnblock > .close:hover
+{
+  filter: drop-shadow(0 0 5px white);
+}
+.columnlist
+{ scroll-behavior: smooth;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  
+  min-height: 90% ;
+  overflow: hidden;
+}
